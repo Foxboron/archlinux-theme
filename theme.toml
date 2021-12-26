@@ -1,0 +1,12 @@
+name = "Arch Linux Theme"
+license = "MIT"
+licenselink = "https://github.com/foxboron/archlinux-theme/blob/master/LICENSE"
+description = "An Arch Linux theme for hugo"
+homepage = "http://example.com/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Morten Lindeurd"
+  homepage = "https://linderud.pw"
