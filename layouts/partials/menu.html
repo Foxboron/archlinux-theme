@@ -1,0 +1,9 @@
+        <div id="nav-sidebar" class="widget">
+        {{- range $name, $menu := .Site.Menus }}
+                    <h4>{{$name|title}}</h1>
+        {{- range $menu}}
+                    <ul>
+                        <li><a href="{{.URL}}" title="Community documentation">{{.Name | title}}</a></li>
+                    </ul>
+        {{end}}{{end}}
+                </div>

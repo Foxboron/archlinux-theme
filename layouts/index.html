@@ -1,0 +1,8 @@
+{{define "main" }}
+{{ if os.FileExists "_index.md" }} 
+    <div id="intro" class="box">
+        <h2>{{.Title}}</h2>
+        {{.Content}}
+    </div>
+{{ end }}
+{{end}}

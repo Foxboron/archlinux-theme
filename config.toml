@@ -1,0 +1,5 @@
+theme = "archlinux-theme"
+themesdir = "."
+languageCode = "en-us"
+baseurl = "localhost"
+title = "Arch Linux test"

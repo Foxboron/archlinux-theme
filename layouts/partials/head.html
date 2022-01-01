@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Arch Linux</title>
+    {{ $svgLogo:= resources.Get "archlinux-common-style/img/archlogo.8a05bc7f6cd1.svg"}}
+    {{ $style := resources.Get "archlinux-common-style/sass/archlinux.scss" | resources.ToCSS | resources.Fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{$style.Permalink}}" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="/css/arch.css" />
+    <style>
+    #archnavbar #logo {
+        background: url({{$svgLogo}}) !important;
+        background-size: 100% !important;
+    }
+    </style>
+</head>

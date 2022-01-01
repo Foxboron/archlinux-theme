@@ -1,0 +1,3 @@
+[submodule "assets/archlinux-common-style"]
+	path = assets/archlinux-common-style
+	url = ssh://git@gitlab.archlinux.org:222/archlinux/archlinux-common-style.git

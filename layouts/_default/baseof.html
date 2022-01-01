@@ -4,8 +4,16 @@
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        <div id="archdev-navbar"></div>
+            <div id="content-left-wrapper">
+                <div id="content-left">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+        <div id="content-right">
+        {{ partial "menu.html" . }}
         </div>
-        {{- partial "footer.html" . -}}
+        {{ partial "footer.html" . }}
+        </div>
     </body>
 </html>
